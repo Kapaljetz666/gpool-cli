@@ -4,7 +4,7 @@
 while true
 do
     # Start the process
-    ./gpool --pubkey 8uyoPrSogznjqeDEtL9FqtKYyaoMqZrTcRiSY8xj6HJe &
+    ./gpool --pubkey 8uyoPrSogznjqeDEtL9FqtKYyaoMqZrTcRiSY8xj6HJe --no-pcie &
 
     # Get the PID of the process
     PID=$!
